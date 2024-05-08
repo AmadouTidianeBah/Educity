@@ -1,0 +1,28 @@
+.navbar {
+    width: 100%;
+    color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 8px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 3;
+}
+
+.dark-nav {
+    background-color: #212ea2;
+    transition: .5s;
+}
+
+.nav-logo {
+    width: 180px;
+}
+
+ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 4px 16px;
+}
+
